@@ -1,0 +1,681 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, span, form, fieldset, label, input, textarea, legend
+{
+	background: transparent;
+	background-repeat:repeat-x;
+	
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	text-decoration:none ;
+}
+
+div#preloaded-images {
+   position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}
+
+
+
+#contact1{
+	background-image:url(MainBackground3.gif);
+	background-color:#FFF;}
+	
+#contact2{
+	background-image:url(MainBackground4.gif);
+	background-color:#FFF;}	
+	
+#construction{
+	margin-top: -50px;
+	margin-left:240px;
+	clear:both;
+	
+	}
+
+body{ 
+	
+	background-image:url(MainBackground2.gif);
+	background-color:#170505;
+	
+	/*background:  center 0px;
+	background: #e5e5dd center 0px;*/
+	height: auto; 
+	width: auto;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+#images{
+	margin-left:260px;
+	margin-top:-6px;
+	}
+	
+#logo{
+	background-image:url(logo.png );
+	height: 109px;
+	width: 222px;
+	margin-left: 0px;
+	clear:both;
+	float:left;
+	margin-top: 0px;
+}
+	
+#content{
+	width:960px;
+	height:960px;
+	margin:auto;
+	
+	
+	}
+	}
+#container{
+	height:660px;
+	width:960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -50px;
+
+	}
+
+	
+
+
+
+
+img {
+	border:thick;
+	border-color:#FFF;
+}
+#EmailMe{
+	position:absolute;
+	padding-top:225px;
+	padding-left:255px;
+	
+	padding-bottom: 150px;
+	
+	}
+#title{
+	height: 170px;
+	width: 365px;
+	padding-bottom: -150px;
+	margin-bottom: -150px;
+	
+	}	
+	
+#topPanel{
+	background-image:url(btmPanel.png);
+	height:500px;
+	width:960px;
+	margin-top:0px;
+	margin-bottom:0px;
+	clear:both;
+	float:right;
+	
+	
+	
+
+	}
+
+
+#bottomPanel{
+	background-image:url(btmPanel.png);
+	height:0px;
+	width:960px;
+	margin-top:-107px;
+	margin-left:222px;
+	float:left;
+	clear:both;
+	
+	}
+#services{
+	font-style:italic;
+	font-size:large;
+	height:850px;
+	width: 910px;
+	padding:20px;
+	list-style:none;
+	color:#e4d8bc;
+	background-color:#1b0507;
+	border-color:#F90;
+	border-style:solid;
+	}
+h2, h3{
+	color:#F90;
+}
+#nav{
+	
+	
+	font-style:italic;
+	height:auto;
+	width: 960px;
+	margin-top: -85px;
+	margin-left:220px;
+	list-style:none;
+	
+	}
+	
+#nav2{
+	
+	
+	font-style:italic;
+	height:auto;
+	width: 960px;
+	margin-top: 0px;
+	margin-left:280px;
+	list-style:none;
+	
+	
+	}	
+	
+#nav li{display:inline;}
+
+#nav2 li{display:inline;
+
+}
+
+a:link{
+	text-decoration:none;
+	color:#300;
+	}
+a:visited{
+	color:#F60;
+	text-decoration: none;
+	}
+	
+a:hover{
+	color:#C00;
+	}
+.copyright{
+	margin-left: 620px;
+	margin-top: -1px;
+ 
+	}
+
+	
+blockquote {
+	margin: 2em;
+	padding: .3em 0 0 2em;
+	background: url(../img/quote.png) 0 0 no-repeat;
+}
+
+blockquote p{
+	color: #FFF;
+	font-size: 129%;
+	font-style: italic;
+	line-height: 1.2;
+	}
+
+blockquote p.author {
+	color: #aaa;
+	font-size: 85%;
+	font-weight: bold;
+	}
+	
+div.sub h4,div.sub {
+	color: #fff;
+	}
+
+img {
+	border: none;
+}
+Fport code {
+	display: block;
+	padding: 10px;
+	font-size: 85%;
+	border: 1px solid #ccc;
+	background:  #f2f2f2;
+	margin-bottom: 5em;
+	white-space: pre;
+	overflow: auto;
+}
+
+div.limiter {
+	text-align: left;
+	width: 80%;
+	max-width: 69.23em;
+	padding: 1.2em 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+ul#portfolio li img{
+	border:3px solid #e5e5dd;
+	width: 370px;
+	height: 130px;
+	margin-left: 200px;
+	list-style:none;
+		
+}
+#portfolio{
+	width: 370px;
+	height: 130px;
+	margin-top:-40px;
+	list-style:none;
+	
+
+}
+
+#section{
+	
+	padding: 4px;
+	width: 370px;
+	height: 188px;
+	}
+	
+	
+	
+	
+/* Adding the thumbnail images */
+#container3 a.gallery, #container a.gallery:visited {
+    display:block;
+    color:#F90;
+    text-decoration:none;
+    border:1px solid #F90;
+    margin:1px 2px 1px 2px;
+    text-align:left;
+    cursor:default;
+    }
+	
+#container3 a.slidea {
+    background:url(images/23t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slideb {
+    background:url(images/2t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidec {
+    background:url(images/42t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slided {
+    background:url(images/32t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+* html #container3 a.slided {
+    width:70px;
+    width:54px;
+    }
+	
+#container3 a.slidee {
+    background:url(images/21t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidef {
+    background:url(images/1t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+* html #container3 a.slidef {
+    width:70px;
+    width:54px;
+    }
+	
+#container3 a.slideg {
+    background:url(images/28t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slideh {
+    background:url(images/24t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidei {
+    background:url(images/5t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidej {
+    background:url(images/26t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidek {
+    background:url(images/44t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+* html #container a.slidek {
+    width:70px;
+    width:54px;
+    }
+/*#container3 a.slidel {
+    background:url(images/12t.jpg);
+    height:70px;
+    width:54px;
+    }*/
+#container3 a.slidem {
+    background:url(images/29t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.sliden {
+    background:url(images/38t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slideo {
+    background:url(images/43t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidep {
+    background:url(images/22t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slideq {
+    background:url(images/12t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slider {
+    background:url(images/46t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slides {
+    background:url(images/45t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidet {
+    background:url(images/19t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slideu {
+    background:url(images/47t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidev {
+    background:url(images/41t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidew {
+    background:url(images/33t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidex {
+    background:url(images/36t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidey {
+    background:url(images/34t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+#container3 a.slidez {
+    background:url(images/31t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidea2 {
+    background:url(images/50t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slideb2 {
+    background:url(images/49t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidec2 {
+    background:url(images/63t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slided2 {
+    background:url(images/25t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidee2 {
+    background:url(images/48t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidef2 {
+    background:url(images/54t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slideg2 {
+    background:url(images/53t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slideh2 {
+    background:url(images/52t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidei2 {
+    background:url(images/9t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidej2 {
+    background:url(images/51t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidek2 {
+    background:url(images/8t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidel2 {
+    background:url(images/37t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidem2 {
+    background:url(images/7t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.sliden2 {
+    background:url(images/6t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slideo2 {
+    background:url(images/61t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidep2 {
+    background:url(images/4t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slideq2 {
+    background:url(images/55t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	
+	
+	
+		#container3 a.slider2 {
+    background:url(images/62t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slides2 {
+    background:url(images/60t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidet2 {
+    background:url(images/59t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slideu2 {
+    background:url(images/58t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidev2 {
+    background:url(images/57t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	#container3 a.slidew2 {
+    background:url(images/56t.jpg);
+    height:70px;
+    width:54px;
+    }
+	
+	
+	
+/* Remove the images and text from sight */
+#container3 a.gallery span {
+    position:absolute;
+    width:1px;
+    height:1px;
+    top:5px;
+    left:5px;
+    overflow:hidden;
+    background:#1b0507;
+	
+    }
+
+/* set the size of the unordered list to neatly house the thumbnails */
+#container3 ul {
+    width:406px;
+    height:406px;
+	
+    }
+#container3 li {
+    float:right;
+	
+    }
+/* move the thumbnails into the correct position */
+#container3 ul {
+    margin:5px;
+    float:right;
+	
+    }
+/* change the thumbnail border color */
+#container3 a.gallery:hover {
+    border:1px solid #fff;
+    }
+/* styling the :hover span */
+#container3 a.gallery:hover span {
+    position:absolute;
+    width:394px;
+    height:512px;
+    top:10px;
+    left:10px;
+    color:#F90;
+    background:#1b0507;
+	
+	
+    }
+#container3 a.gallery:hover img {
+    border:1px solid #fff;
+    float:left;
+    margin-right:5px;
+	
+    }
+#container3 a.slideb:hover img, #container a.slidei:hover img {
+    float:right;
+	
+    }
+#container3 {
+	width:394px;
+    height:512px;
+    background:#1b0507 url(images/12.jpg) 10px 10px no-repeat;
+	
+	
+    }
+/* Remove the images and text from sight */
+#container3 a.gallery span {
+    position:absolute;
+    width:1px;
+    height:1px;
+    top:5px;
+    left:5px;
+    overflow:hidden;
+    background:#1b0507;
+    }
+/* The containing box for the gallery. */
+#container3 {
+    position:relative;
+    width:770px;
+    height:601px;
+    margin:20px auto 0 auto;
+    border:1px solid #F90;
+    }
+/* Removing the list bullets and indentation */
+#container3 ul {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    }

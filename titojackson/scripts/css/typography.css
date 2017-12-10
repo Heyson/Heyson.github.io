@@ -1,0 +1,195 @@
+/**************************************
+	
+Tito Jackson: Typography CSS
+	 
+**************************************/
+
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+	cite, code, em,  small, strong, b, u, i, 
+	center, dl, dt, dd, ul, li{
+		background: transparent;
+		border: 0;
+		margin: 0;
+		outline: 0;
+		padding: 0;
+		
+	}
+	ul { list-style: none; }
+	:focus { outline: 0; }
+	
+	p{ margin-bottom: 14px; }
+	
+	body{ color: #666; font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+	a{ text-decoration: none; }
+	#content a{ color: #b9162c; }
+	
+	span.btn a, #header input[type="submit"]{ color: #FFFFFF; font-size: 16px; font-weight: bold; text-transform: uppercase;}
+	span.btn, #header input[type="submit"]{ 
+		background-image: url("../../media/images/btn-bg.jpg"); 
+		background-repeat: no-repeat;
+		cursor: pointer;
+		display: block;
+		height: 23px;
+		padding: 9px 2px 5px; 
+		text-align: center; 
+		width: 205px;
+	}
+		span.btn.red, #header input[type="submit"]{ background-position: 0 0;}
+			span.btn.red:hover, #header input[type="submit"]:hover{ background-position: 0 -37px;}
+			#header span.btn.black{ margin-right: 17px; } 
+		span.btn.black{ background-position: 0 -37px;}
+			span.btn.black:hover{ background-position: 0 0px;}
+		
+		#header input[type="submit"]{ height: 37px; padding: 6px 2px; width: 206px; }
+		
+		#header input[type="submit"]{ height: 37px; padding: 6px 2px; width: 206px; }
+	
+	h2{ color: #b9162c; font-size: 25px; margin-bottom: 12px; }
+	h3, #content div.fltRgt dt{ color: #333333; font-size: 16px; font-weight: bold; margin-bottom: 5px; }
+		#content div.fltLft h3{ color: #666666;}
+	
+	span.highlight{ color: #c20000; }
+	
+	/* #header */
+	
+		h1.fltLft a{ 
+			background: url("../../media/images/btn/logo.gif") 0 0 no-repeat;
+			display: block;
+			height: 84px; 
+			margin: 0;
+			text-indent: -9999px;
+			width: 172px; 
+		}
+				
+	
+	/*    #nav     */
+				
+		ul#nav{
+			height: 33px;
+			margin: 0 auto;
+			padding-top: 13px;
+			position: relative;
+		}
+		
+			#nav li{ display: inline; }
+		
+			#nav li a{
+				background: url("../../media/images/bg/nav-divider.gif") top right no-repeat;
+			  	display: block;
+			  	float: left;
+			  	font-size: 16px;
+			  	font-weight:bold;
+			  	margin-right: 22.6px;
+				padding-right: 22.6px;
+				text-transform: uppercase;	
+			}
+			
+			#nav li a:hover, #nav li#current a{ color:#b9162c; }
+			#nav li.inactive a{ color: #404040; }
+			#nav li a{ color: #FFFFFF; }
+			
+			#nav li.last a{ color: #404040; background: none; margin-right: 0; padding-right: 0; }
+		
+		/* .feature */ 
+				.countdown{ font-size: 60px; }
+					
+				.countdown strong, .freshTweets strong{ color: #000000; display: block; }
+					.countdown strong{ font-size: 14px; margin-bottom: -5px; }
+					.freshTweets strong{ font-size: 18px; margin-bottom: 7px; }
+					
+				.freshTweets{ color: #000000; font-size: 14px; }
+					
+					ul#twitter_update_list{ height: 80px; }
+					ul#twitter_update_list a, .freshTweets a{ color: #999999; margin: 5px 0; }
+					ul#twitter_update_list a, span.twitterLink a{ 
+						font-family: Georgia, "Times New Roman", Times, serif; 
+						font-style: italic; 
+					}
+						span.twitterLink a{ 
+							background: url("../../media/images/twitter-bg.gif") 0 0 no-repeat; 
+							color: #666666;
+							display: block;
+							height: 24px; 
+							padding-left: 48px; 
+						}
+						span.twitterLink a:hover, ul#twitter_update_list a:hover{ color: #333;}
+			
+		/* #content */
+				
+			#content{ line-height: 18px; }
+			#content div.fltLft{ font-size: 12px; }
+				#content div.fltLft h3{ margin-bottom: 8px; }
+				
+				/* social */
+				.col.social dt{ 
+					font-family: Georgia, "Times New Roman", Times, serif; 
+					font-size: 10px; 
+					font-style: italic;
+					height: 40px;
+					margin-right: 13px;
+					width: 78px; 
+				}
+					.col.social dt.fltLft.last{ margin-right: 0; }
+					.col.social span.facebook a, .col.social span.linkedin a, .col.social span.twitter a{ 
+						display: block; float: left; height: 22px; padding-bottom: 5px; text-indent: -9999px; width: 78px; 
+					}
+						.col.social span.facebook a{ background: url("../../media/images/btn/facebook.gif") 0 0 no-repeat; }
+						.col.social span.linkedin a{ background: url("../../media/images/btn/linkedin.gif") 0 0 no-repeat; }
+						.col.social span.twitter a{ background: url("../../media/images/btn/twitter.gif") 0 0 no-repeat; }
+				
+				/* FORMS */
+					#content label, #content .label{ color: #333; font-weight: bold; }
+					#content input[type="text"], #content textarea{ 
+						background: url("../../media/images/bg/input-bg.gif") 0 0 repeat-x #FFFFFF;
+						border: 1px solid #999; 
+						margin: 8px 0 10px;  
+						padding: 3px; 
+						width: 245px;
+					}
+					#content input[type="submit"]{ 
+						background-image: url("../../media/images/btn/btn-bg.jpg");
+						background-position: -4px -4px; 
+						border: 1px solid #333;
+						color: #FFF; 
+						cursor: pointer;
+						font-size: 13px;
+						font-weight: bold;
+						padding: 4px 3px;
+						width: 75px;
+						height: 28px;
+					}
+						#content input[type="submit"]:hover{ background-position: -4px -41px; }
+				
+					/* SIDEBAR */
+						#content div.fltLft div.col.form p{ margin-bottom: 0; }
+						#content div.fltLft textarea{ height: 95px; }
+						#content div.fltLft input[type="submit"]{ float: right; margin-right: 7px; }
+						
+					/* GET INVOLVED */
+						#content div.fltRgt input[type="checkbox"]{ margin: 10px 0 5px 0; }
+						#content div.fltRgt label.check{ color: #666; font-weight: normal; }
+						#content div.fltRgt textarea{ height: 105px; }
+				
+				#content div.fltRgt dd p{ margin: 0 0 15px 18px; }	
+			
+		/* #footer */
+		
+			#footer, #footer a{ color: #dddddd; font-size: 12px; }
+				#footer a{ color: #999999; font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; }
+				#footer a:hover{ color: #666666; }
+			
+				ul#twitter_update_list3 li{ display: block; float: left; margin: 0 20px 10px 0; width: 280px; } 
+				
+				#footer span.highlight{ color: #FFFFFF; font-weight: bold; }
+				
+				#footer div.fltRgt{ text-align: right; }
+					.credits{ font-size: 11px; }
+					#footer span.transmyt a{ 
+						background: url("../../media/images/btn/transmyt.gif") 0 0 no-repeat;
+						display: block; 
+						height: 13px; 
+						margin-left: 4px;
+						text-align: left;
+						text-indent: -99999px; 
+						width: 81px; 
+					}

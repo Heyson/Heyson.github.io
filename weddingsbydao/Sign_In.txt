@@ -1,0 +1,3 @@
+host: weddingsbydao.com
+username: weddingsbydao
+password: weddingPlans1

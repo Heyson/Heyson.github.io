@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" /> 
+	<title>.: District Lounge :.</title>
+    <meta name="author" content="Transmyt Marketing http://transmyt.com" />
+    <meta name="Description" content="" />
+    <meta name="Keywords" content="" />
+    
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+    
+	<script src="siteTools/functions.js" type="text/javascript"></script>
+    <script src="http://app.mobilestorm.com/stun/Includes/quickFunctions.js" language="javascript" type="text/javascript"></script>
+	<script src="siteTools/mobilestorm.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="siteTools/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="siteTools/jScrollPane.js"></script>
+    
+    
+    <script src="siteTools/jquery.scrollTo-1.3.3.js" type="text/javascript"></script>
+	<script src="siteTools/jquery.localscroll-1.2.5.js" type="text/javascript" charset="utf-8"></script>
+	<script src="siteTools/jquery.serialScroll-1.2.1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="siteTools/coda-slider.js"></script>
+           <style type="text/css">.panel{ color: #FFF;}</style>  
+             
+</head>
+
+<body>
+<span class="accessibility"><a href="#nav">Skip to navigation</a> | <a href="#footer">Skip to page information</a></span>
+<hr />
+<div class="containerOuter">
+    <div class="containerInner">
+        <div id="header">
+        	<h1 class="fltLft"><a href="index.html" class="logo" title="Home"></a></h1>
+        
+            <div class="fltRgt">
+                <ul class="headNav fltLft">
+                    <li id="music"><a href="#" title="Launch Music Player" onclick="MM_openBrWindow('http://www.pashaboston.com/rumorplayer.php','pashamusic','scrollbars=no,width=39,height=39')">Launch District Music</a></li>
+                    <li id="facebook"><a href="http://www.facebook.com/pages/Boston/PASHA/74053499639" target="_blank" title="Become A Fan On Facebook">Facebook</a></li>
+                    <li id="twitter"><a href="http://twitter.com/pashaboston" target="_blank" title="Follow Us On Twitter">Follow Us On Twitter</a></li>
+                </ul><!-- end #header.fltRgt .headNav.fltLft -->
+                <div class="subscribe fltLft">
+                    <form action="http://app.mobilestorm.com/stun/manageforms/addSubscriber.php" name="frm" method="post" onsubmit="return submitform()" enctype="multipart/form-data" target="_blank">
+                        <input type="text" name="email" value="" />
+                        <input id="submit" title="Sign Up for Emails And Event Announcements" type="submit" value="Sign Up for Emails And Event Announcements" />
+                        <input type="hidden" name="formID" value="5187" />
+                        <input type="hidden" name="weburl" value="1" />
+                        <input type="hidden" name="isDedicatedClient" value='0' />
+                    </form>
+                </div> <!-- /#header.fltRgt .subscribe-->
+            </div><!-- /#header.fltRgt -->
+        
+        	<hr />
+        
+            <ul class="clr" id="nav">
+                <li><a href="district.html">District</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="events_full.html">Events</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="http://www.pashaboston.net/photogallery/index2.php?galleryid=5" target="_blank"> Photo Gallery</a></li>
+                <li><a href="news.html">News</a></li>
+                <li class="last"><a href="memberships.html">Memberships</a></li>
+                <li class="last fltRgt"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div><!-- /#header -->
+        
+        <hr />
+        
+        <div class="clr contentWrapper">  
+        	<div id="content">
+               <div class="fltLft">
+              	 <div id="slider">
+                 
+                    <ul id="subNav" class="wide" style="margin-top:-3px; margin-left:-3px;"><!--no class needed for different layout-->
+                        <li><a href="#Monday">Monday</a></li>
+                        <li><a href="#Tuesday">Tuesday</a></li>
+                        <li><a href="#Wednesday">Wednesday</a></li>
+                        <li><a href="#Thursday">Thursday</a></li>
+                        <li><a href="#Friday">Friday</a></li>
+                        <li><a href="#Saturday">Saturday</a></li>
+                        <li><a href="#Sunday">Sunday</a></li>
+                        <li class="fltRgt"><a href="calendar.html">Calendar</a></li>
+                     </ul>
+                      
+                     <div class="col wide" style="margin-top:5px; margin-left:-3px;"><!--replace for colThin for different laout-->
+                     
+                    
+                     
+                    <div class="scroll" style="width:907px; height:386px; margin-top:-10px;">
+				 <div class="scrollContainer" style="width:907px; height:386px;">  
+                     
+                      <div class="panel" id="Monday" style="width:907px;" >
+                     Monday
+                     </div><!-- end Monday-->
+                      <div class="panel" id="Tuesday" style="width:907px; height:386px; ">
+                     Tuesday
+                     </div><!-- end Tuesday-->
+                      <div class="panel" id="Wednesday" style="width:907px;">
+                     Wednesday
+                     </div><!-- end Wednesday-->
+                      <div class="panel" id="Thursday" style="width:907px;">
+                     Thursday
+                     </div><!-- end Thursday-->
+                      <div class="panel" id="Friday" style="width:907px;">
+                     Friday
+                     </div><!-- end Friday-->
+                    
+                     <div class="panel" id="Saturday" style="width:907px; background-image:url(images/eventBg.jpg); background-position:top left;">
+                                          
+                              
+                     <h2 >Status Saturdays</h2>
+                    
+                     <p class="parWidth">EVOLUTION Tuesdays @ RumoR is the longest running weekly night in the city of Boston... Dating back to 1997, the name EVOLUTION has become its signature due to the various locations the party has taken place. The Tuesday night party evolved from Bills Bar, Aria, Trio, Whiskey Park, Embassy, and for the last 4 years has found its favorite home at RumoR. Since being at RumoR, Tuesday nights have been recongnized by The Improper Bostonian as Boston’s Best for the years of 06’, 07’ and 08’. Customers are always amazed at how many people attend this extraordinary party. The overall atmosphere and vibe that is created weekly is second to none.</p>
+                     	<dl>
+                            <dt class="fltLft">DATE:</dt>
+                            <dd class="fltRgt">Every Saturday Night</dd>
+                        </dl>
+                        <div class="clr divider" style="margin-top: 38px; margin-bottom:8px;">&nbsp;</div>
+                        <dl>
+                            <dt class="clrLft fltLft">HOST:</dt>
+                            <dd class="fltRgt"><a href="http://www.6one7productions.com/">6one7 Productions</a></dd>
+                        </dl>
+                        <div class="clr divider" style="margin-top: 32px; margin-bottom:8px;">&nbsp;</div>
+                        <dl>
+                            <dt class="clrLft fltLft">TIME:</dt>
+                            <dd class="fltRgt">10:30pm to 2am</dd>
+                        </dl>
+                        <div class="clr divider" style="margin-top: 32px; margin-bottom:8px;">&nbsp;</div>
+                       	<dl>
+                            <dt class="clrLft fltLft">MUSIC:</dt>
+                            <dd class="fltRgt">Top 40 Mashups</dd>
+                        </dl>
+                        <div class="clr divider" style="margin-top: 32px; margin-bottom:6px;">&nbsp;</div>
+                        <dl>
+                            <dt class="clrLft fltLft">ENTRANCE:</dt>
+                            <dd class="fltRgt">Guest List Only</dd>
+                        </dl>
+                       
+						
+                        <span class="RSVPbtn"><a href="#" title="GUEST LIST">RSVP for Guest list This Event</a></span>
+                     </div><!--end Saturday-->
+                     
+                     <div class="panel" id="Sunday">
+                     sunday
+                     </div><!-- end Sundday-->
+                     
+                     </div><!-- /.scrollContainer -->
+						</div><!-- /.scroll -->
+                     </div>
+                </div>
+                
+                
+        </div><!-- end slider-->
+			
+            </div><!-- /#content -->
+        </div><!-- /.contentWrapper -->
+	</div><!-- /.containerInner-->
+    
+    
+    
+    
+    
+    
+    <div id="footer">
+        <div class="fltLft">
+            <p>180 &nbsp;Lincoln St. &nbsp;Boston,&nbsp; 02111&nbsp; |&nbsp; 617.426.0180</p>
+            <span class="transmyt"><a href="http://www.transmyt.com" title="transmyt" target="_blank">Transmyt</a></span>
+        </div>
+        
+        <div class="fltRgt">
+            <div class="banner"></div>
+        </div>
+    </div><!-- /#footer -->
+</div><!-- /.containerOuter -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6436074-5");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.contentWrapper').hide().slideDown(800);
+		if ($('.contentWrapper').is(':animated')) {
+			$('#content').hide().fadeIn(2500);
+        }
+		$('.scroll-pane').jScrollPane();
+	});
+</script>
+
+
+</body>
+</html>

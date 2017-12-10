@@ -1,0 +1,21 @@
+/**************************************
+	
+Tito Jackson: Print CSS
+	 
+**************************************/
+
+body, div{
+	background-color: #FFFFFF;
+	background-image: none;
+	border: 0;
+	color: #000;
+	float: none !important;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+}
+
+a{ color: #0000FF; }
+
+#header  .headerContent .fltRgt, #header #nav, .feature, #content .fltLft, #footer{ display: none !important; }

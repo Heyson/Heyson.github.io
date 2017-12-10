@@ -1,0 +1,131 @@
+/**************************************
+	
+Tito Jackson: Global CSS
+	 
+**************************************/
+
+/* style import */
+
+	@import url("typography.css");
+	
+	
+/* basics */
+	html, body, div, span, form, fieldset, label, input, textarea, legend {
+		background: transparent;
+		border: 0;
+		margin: 0;
+		outline: 0;
+		padding: 0;
+	}
+	
+	img, img a{ border: none; }
+	
+	body{ 
+		background: url("../../media/images/bg/global-bg.gif") 0 0 repeat-x #FFFFFF;
+		height: 100%;
+		width: 100%; 
+	}
+	
+	.accessibility, hr{ display: none; }
+		
+	/* common */
+	
+	.clr{ clear: both; } .clrLft{ clear: left; } .clrRgt{ clear: right; }
+	.fltLft{ float: left; } .fltRgt{ float: right; }
+	
+	div.divider, dd div.divider{ background-color: #cfd6db; display: block; font-size: 0; height: 1px; margin: 12px 0; width: inherit; }
+	#footer div.divider{ background-color: #666666; }
+
+	/* .container*/
+	
+		.container{
+			height: auto !important;
+			margin: 0 auto -210px;
+			min-height: 100%;
+			width: 100%;
+		}
+	
+		/*    #header     */
+	
+		
+			#header{
+				height: 246px;
+				margin: 0 auto;
+				padding-top: 6px;
+				width: 100%;
+			}
+				.headerContent{ height: auto; margin: 0 auto; width: 930px; }
+				
+					#header div.fltRgt{ padding-top: 20px; }
+			
+		
+		/* .feature */
+		
+			.feature{ }
+				
+				
+				
+				.freshTweets{ 
+					
+				}
+				.countdown{
+					 height: 80px; padding: 50px 0 0 53px; width: 400px;
+					}
+		/* #content */
+				
+			#content{ background-color: #FFFFFF; height: 100%; margin: 0 auto 15px; width: 930px; }
+				#content div.fltLft { margin: 6px 14px 15px 0; height: 100%; width: 299px; }
+				#content div.fltRgt { margin: 6px 0 15px 0; height: 100%; width: 617px; }
+				
+				.col{ 
+					background: url("../../media/images/bg/col-bg.gif") 0 0 repeat-x #f4f4f4;
+					border: 1px solid #dbdbdb;
+					margin: 0 8px;
+					padding: 10px;
+				}
+					.col.video{ height: 193px; margin-bottom: 5px; }
+					.col.social{ height: 70px; margin-bottom: 5px; }
+					/*.col.form{ height: 320px; }*/
+				
+				.tweetmeme_button{ float: left; margin: 3px 15px 15px 0; }
+				
+		/* #footer */
+		
+			div.clr.push{ background-color: #FFFFFF; }
+		
+			.push, #footer{ height: 210px; /*387px*/ }
+		
+			#footer{ 
+				background: url("../../media/images/bg/footer-bg.gif") 0 0 repeat-x #000000;
+				width: 100%; 
+			}
+			
+				.footerContent{ height: 175px; margin: 0 auto; padding-top: 25px; width: 930px; }
+				
+				#footer div.fltLft{ width: 450px; }
+				#footer div.fltRgt{ width: 300px; }
+				
+/* #home */
+  body#home{ background: url("../../media/images/bg/global-home-bg.gif") 0 0 repeat-x #FFFFFF; }
+  
+	#home #header{
+		height: 530px;
+		margin: 0 auto;
+		padding-top: 6px;
+		width: 100%;
+	}
+		#home .headerContent{ height: auto; margin: 0 auto; width: 930px; }
+		
+			#home #header div.fltRgt{ padding-top: 20px; }
+  
+  /* .feature */
+		  
+  #home .feature{ 
+	  background: url("../../media/images/bg/feature-bg.jpg") 0 0 no-repeat; 
+	  height: 396px; 
+	  margin-bottom: 10px;
+	  width: 1045px; 
+  }
+	  
+	  #home .feature .freshTweets{ height: 60px; padding: 68px 0 0 95px; width: 400px; }
+	  #home .feature .countdown{ height: 60px; padding: 155px 0 0 70px; width: 400px;}

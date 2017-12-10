@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<!-- saved from url=(0013)about:internet -->
+	<head>
+		<title>
+					InnerFade with jquery
+		</title>
+		<!-- //
+		
+		____________________________________________
+		
+		Gestaltung und XHTML-Programmierung
+		
+		+49 341 2 27 96 99
+		www.medienfreunde.com
+		____________________________________________
+		
+		-->
+		
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="imagetoolbar" content="no" />
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.innerfade.js"></script>
+		<script type="text/javascript">
+	   $(document).ready(
+				function(){
+					$('#news').innerfade({
+						animationtype: 'slide',
+						speed: 750,
+						timeout: 2000,
+						type: 'random',
+						containerheight: '1em'
+					});
+					
+					$('ul#portfolio').innerfade({
+						speed: 1000,
+						timeout: 5000,
+						type: 'sequence',
+						containerheight: '220px'
+					});
+					
+					$('.fade').innerfade({
+						speed: 1000,
+						timeout: 6000,
+						type: 'random_start',
+						containerheight: '1.5em'
+					});
+					
+					$('.adi').innerfade({
+						speed: 'slow',
+						timeout: 5000,
+						type: 'random',
+						containerheight: '150px'
+					});
+
+			});
+  	</script>
+
+		<link rel="stylesheet" href="css/reset.css"  type="text/css" media="all" />
+		
+		<style type="text/css" media="screen, projection">
+					@import url(css/jq_fade.css);
+		</style>		
+	</head>
+	<body>				
+			
+	
+				
+			
+					
+					
+				
+				
+		
+				
+				<h3>A list with images and links</h3>
+                jlhnlhjasdlkfjldfs
+				<ul id="portfolio">					
+					<li>
+						<a href="http://medienfreunde.com/deutsch/referenzen/kreation/good_guy__bad_guy.html"><img src="images/Autumn Leaves.jpg" alt="Good Guy bad Guy" /></a>
+					</li>
+					<li>
+						<a href="http://medienfreunde.com/deutsch/referenzen/kreation/whizzkids.html"><img src="images/Creek.jpg" alt="Whizzkids" /></a>
+					</li>					
+					<li>
+						<a href="http://medienfreunde.com/deutsch/referenzen/printdesign/koenigin_mutter.html"><img src="images/Dock.jpg" alt="Königin Mutter" /></a>
+					</li>					
+					<li>
+						<a href="http://medienfreunde.com/deutsch/referenzen/webdesign/rt_reprotechnik_-_hybride_archivierung.html"><img src="images/rt_arch.jpg" alt="RT Hybride Archivierung" /></a>
+					</li>		
+					<li>
+						<a href="http://medienfreunde.com/deutsch/referenzen/kommunikation/tuev_sued_gruppe.html"><img src="images/tuev.jpg" alt="TÜV SÜD Gruppe" /></a>
+					</li>				
+				</ul>
+				
+				
+			
+            <div id= "footer">
+            hlkjlkjlkjlkjlkjlkjlkj<br />
+            jnhlkjhlkjlkjlkjlkjlkjl<br />
+            </div>
+		
+		<noscript>
+	    <div id="att">
+	    	<p>Sorry, you need to activate JavaScript in your browser.</p>
+	    </div>
+    </noscript>					
+	</body>
+</html>

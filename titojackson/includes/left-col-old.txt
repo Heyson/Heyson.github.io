@@ -1,0 +1,46 @@
+<div class="fltLft">
+    <div class="col video">
+        <!--[if IE]>
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" height="188" id="viddler_2c056b14" width="259">
+        <![endif]x-->
+        <!--[if !IE]> <--> 
+        <object type="application/x-shockwave-flash" data="http://www.viddler.com/player/2c056b14/" height="188" id="viddler_2c056b14" width="259">
+        <!--> <![endif]-->
+          <param name="wmode" value="transparent" />
+          <param name="movie" value="http://www.viddler.com/player/2c056b14/" />
+          <param name="allowScriptAccess" value="always" />
+          <param name="allowFullScreen" value="true" />
+          <p>The video section on TitoJacksonForBoston.com requires <a href="http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">Flash Player Plugin</a>.</p>
+        </object>
+    </div>
+    
+    <div class="col social">
+        <h3>Connect</h3>
+            <dl>
+                <dt class="fltLft"><span class="facebook"><a href="http://www.facebook.com/pages/Tito-Jackson-for-Boston-City-Council-At-Large/86663532450" target="_blank">Tito Jackson on Facebook</a></span><br />
+                <span class="clrLft">Become a fan</span></dt>
+                
+				<dt class="fltLft"><span class="linkedin"><a href="http://www.linkedin.com/in/titojackson" target="_blank">Tito Jackson on Linked In</a></span><br />
+                <span class="clrLft">Add to network</span></dt>
+				
+                <dt class="fltLft last"><span class="twitter"><a href="http://twitter.com/titojackson" target="_blank">Tito Jackson on Twitter</a></span><br />
+                <span class="clrLft">Follow me</span></dt>
+            </dl>
+    </div>
+    
+    <div class="col form">
+        <h3>Send Us Your Comments</h3>
+        <p><form action="http://www.titojacksonforboston.com/thank-you/" method="post" target="_blank">
+            <p><label for="name">Your Name:</label><br />
+            <input id="name" name="name" type="text" /></p>
+            
+            <p><label for="email">Your Email:</label><br />
+            <input id="email" name="email" type="text" /></p>
+            
+            <p><label for="comments">Share Your Thoughts:</label><br />
+            <textarea cols="5" id="comments" name="comments" rows="5"></textarea></p>
+            
+            <p><input class="btn fltRgt" type="submit" value="Submit" /></p>
+        </form></p>
+    </div>
+</div><!-- /.colLft -->
